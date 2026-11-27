@@ -1,0 +1,1 @@
+run_id,task,baseline_sha,harness,harness_version,provider,model,effort,preset,permissions,repeat,tests_passed,tests_total,task_accepted,out_of_scope_changes,duration_seconds,ttft_ms,tool_calls,input_tokens,output_tokens,cached_tokens,cost_observed,currency,human_minutes,interventions,errors,notes

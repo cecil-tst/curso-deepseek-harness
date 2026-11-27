@@ -1,7 +1,12 @@
-# Curso DeepSeek Harness v2.0
+# Curso DeepSeek Harness · v3.0
+https://curso-deepseek-harness.vercel.app/
 
-Web: https://curso-deepseek-harness.vercel.app/
+Formación técnica para usuarios de Claude Code que quieren evaluar DeepSeek Harness como alternativa o complemento. 8 módulos, 24 lecciones, 8 laboratorios, 12 prompts, 32 términos y 9 h 30 min estimadas.
 
-8 módulos, 24 lecciones, tres niveles, 8 microprácticas, 8 prompts, glosario y recursos. Interfaz adaptada de curso-pm-ia v5.8.2. Progreso, notas, destacados y comentarios en localStorage; migración desde v1; exportación/importación JSON, Markdown y PDF de curso. Diseño responsive y metadatos sociales. Los tutoriales son los indicados en las fuentes; Martín Toledo está identificado en la transcripción, el segundo autor queda pendiente de verificación. Solo español en esta edición. La imagen social SVG puede no renderizar en todos los clientes; se debe sustituir por PNG para máxima compatibilidad.
+Fuentes: [Martín Toledo](https://www.youtube.com/@SoyMartinToledo) ([vídeo](https://www.youtube.com/watch?v=WFlTNBh1PFk)) y [Migue Baena](https://www.youtube.com/@MigueBaenaIA) ([vídeo](https://www.youtube.com/watch?v=ZBSHJ7GtiPo)). Los laboratorios son adaptaciones originales, no código de los autores. DSH está en preview: verificar versiones y condiciones vigentes.
 
-Cambios publicados desde main mediante integración GitHub–Vercel. No se requieren dependencias ni build para el HTML estático.
+[Material LogLens](lab/README.md): repo local Node.js con fixture, bug intencional, tests base y aceptación, benchmark, checklist y ejemplo de skill.
+
+Interfaz adaptada de PM IA: progreso y notas locales, búsqueda, filtros, PDF dinámico, destacados, respaldo JSON. Se preservan IDs/progreso; los destacados cuyo texto cambió quedan como notas históricas. Español. Imagen social SVG (compatibilidad variable según cliente). GitHub main → Vercel producción automática.
+
+[Revisión técnica](REVIEW-v3.md)
