@@ -32,3 +32,15 @@ Tres rondas de revisión crítica del asistente; no se dispone de un subagente i
 - PASS — autores y materiales intactos
 
 Duraciones estimadas: VS Code 10 h 05 min, Claude Code 9 h 50 min. No son tiempos medidos con alumnos. Pendiente QA visual y pruebas E2E en navegador, además de prácticas reales con modelos. Se conservan las pruebas previas del laboratorio sin modificar su código.
+
+## Comprobaciones adicionales de integración
+- PASS — VS Code 25 / Claude 26 / todos 28
+- PASS — búsqueda no recupera lección Claude oculta
+- PASS — nivel y perfil se combinan
+- PASS — progreso y perfil se combinan
+- PASS — variante de práctica manual no muestra Claude
+- PASS — variante Claude no muestra manual
+- PASS — Todos muestra dos variantes
+- PASS — 4 scripts correctos
+
+Ajustes: nivel del módulo según ruta; restauración coherente de búsqueda en navegación a un módulo o destacado; título social; paginación del PDF con límite por línea. Comprobaciones de lógica JavaScript y sintaxis, no E2E visuales.
