@@ -1,12 +1,14 @@
-# Curso DeepSeek Harness · v3.0
+# Curso DeepSeek Harness · v3.1
 https://curso-deepseek-harness.vercel.app/
 
-Formación técnica para usuarios de Claude Code que quieren evaluar DeepSeek Harness como alternativa o complemento. 8 módulos, 24 lecciones, 8 laboratorios, 12 prompts, 32 términos y 9 h 30 min estimadas.
+Curso técnico para dos perfiles: power users de VS Code sin IA que evalúan su primer agente por coste y control, y usuarios con experiencia en Claude Code y VS Code que evalúan migración o coexistencia. No se necesita contratar Claude Code.
 
-Fuentes: [Martín Toledo](https://www.youtube.com/@SoyMartinToledo) ([vídeo](https://www.youtube.com/watch?v=WFlTNBh1PFk)) y [Migue Baena](https://www.youtube.com/@MigueBaenaIA) ([vídeo](https://www.youtube.com/watch?v=ZBSHJ7GtiPo)). Los laboratorios son adaptaciones originales, no código de los autores. DSH está en preview: verificar versiones y condiciones vigentes.
+8 módulos, 28 lecciones (23 comunes, 2 específicas VS Code sin IA, 3 específicas Claude Code), 8 laboratorios, 14 prompts, 35 términos. Ruta VS Code: 25 lecciones, 10 h 05 min; ruta Claude Code: 26 lecciones, 9 h 50 min. Duración orientativa, no medición real.
 
-[Material LogLens](lab/README.md): repo local Node.js con fixture, bug intencional, tests base y aceptación, benchmark, checklist y ejemplo de skill.
+Fuentes: [Martín Toledo](https://www.youtube.com/@SoyMartinToledo) ([vídeo](https://www.youtube.com/watch?v=WFlTNBh1PFk)) y [Migue Baena](https://www.youtube.com/@MigueBaenaIA) ([vídeo](https://www.youtube.com/watch?v=ZBSHJ7GtiPo)). Laboratorios propios adaptados de los vídeos; verifica documentación vigente.
 
-Interfaz adaptada de PM IA: progreso y notas locales, búsqueda, filtros, PDF dinámico, destacados, respaldo JSON. Se preservan IDs/progreso; los destacados cuyo texto cambió quedan como notas históricas. Español. Imagen social SVG (compatibilidad variable según cliente). GitHub main → Vercel producción automática.
+[LogLens](lab/README.md) · [Primer flujo VS Code + DSH](lab/first-session-vscode.md) · [Adopción](lab/adoption-checklist.md) · [Migración Claude Code](lab/migration-checklist.md).
 
-[Revisión técnica](REVIEW-v3.md)
+Selector de perfil persistente, etiquetas y filtro de lecciones/prompts/recursos, variantes de laboratorio y progreso por ruta; se conservan IDs y anotaciones, los fragmentos modificados quedan como notas históricas. El PDF contiene todos los contenidos e identifica perfiles. Despliegue automático GitHub main → Vercel. Español; imagen social SVG.
+
+[Revisión v3.1](REVIEW-v3.1.md)

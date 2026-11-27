@@ -1,5 +1,5 @@
 # Plantilla didáctica code-review
-Copia solo el bloque a SKILL.md. Verifica rutas y formato de las versiones instaladas. DSH: .agents/skills/code-review/SKILL.md o .dsh/skills/code-review/SKILL.md; Claude Code: .claude/skills/code-review/SKILL.md. No hay instalación automática.
+Copia solo el bloque a SKILL.md. Verifica rutas y formato de las versiones instaladas. DSH: .agents/skills/code-review/SKILL.md o .dsh/skills/code-review/SKILL.md. Este ejercicio funciona sin Claude Code. Variante para quien ya lo utiliza: .claude/skills/code-review/SKILL.md, según su versión. No hay instalación automática.
 
 ~~~markdown
 ---
@@ -16,5 +16,5 @@ Solo lectura. No escribir, instalar, acceder a red ni hacer commit/push. Ejecuta
 4. Anotar comandos autorizados, exit codes y resultados reales. No alterar pruebas.
 5. Informar límites; no inventar hallazgos.
 ## Activación
-Revisar el diff de summarize.mjs del M04 y comprobar descubrimiento e invocación. Repetir con CLI M05. Registrar resultados por harness, sin declarar equivalencia si no se probó.
+Revisar el diff de summarize.mjs del M04 y comprobar descubrimiento e invocación. Repetir con CLI M05. Registrar resultados en DSH. Solo si ya tienes Claude Code, repetir en ambos y no declarar equivalencia si no se probó.
 ~~~

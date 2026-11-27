@@ -1,4 +1,6 @@
-# Inventario Claude Code → DSH
+# Inventario Claude Code → DSH (perfil con experiencia previa)
+
+No es un requisito para usuarios de VS Code sin IA. Si no tienes Claude Code activo, no lo contrates para completar el curso. Registra únicamente los activos que utilizas; N/A para los demás. Usa ADOPTION.md como plan común.
 No incluir secretos, tokens, historial crudo ni configuraciones privadas completas.
 
 | Activo | Ruta/ámbito | Dependencia | Reutilizar/adaptar/reconstruir/conservar | Riesgo | Prueba de paridad | Resultado |
