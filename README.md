@@ -9,6 +9,10 @@ Fuentes: [Martín Toledo](https://www.youtube.com/@SoyMartinToledo) ([vídeo](ht
 
 [LogLens](lab/README.md) · [Primer flujo VS Code + DSH](lab/first-session-vscode.md) · [Adopción](lab/adoption-checklist.md) · [Migración Claude Code](lab/migration-checklist.md).
 
-Selector de perfil persistente, etiquetas y filtro de lecciones/prompts/recursos, variantes de laboratorio y progreso por ruta; se conservan IDs y anotaciones, los fragmentos modificados quedan como notas históricas. El PDF contiene todos los contenidos e identifica perfiles. Despliegue automático GitHub main → Vercel. Español; imagen social SVG.
+Selector de perfil persistente, etiquetas y filtro de lecciones/prompts/recursos, variantes de laboratorio y progreso por ruta; se conservan IDs y anotaciones, los fragmentos modificados quedan como notas históricas. El PDF contiene todos los contenidos e identifica perfiles. Despliegue automático GitHub main → Vercel. Español; imagen social PNG de 1200 × 630 generada durante el build desde assets/og.svg.
 
 [Revisión v3.1](REVIEW-v3.1.md)
+
+## Previsualización social
+
+Los metadatos Open Graph y Twitter Card apuntan al PNG estático `/assets/social-preview-v1.png`, generado desde `assets/og.svg` durante `npm run build` con `@resvg/resvg-js` fijado a 2.6.2. El sitio continúa siendo estático: `dist/` contiene `index.html`, `assets/`, `lab/` y los documentos públicos. Para cambiar la portada, modifica el SVG; si necesitas invalidar cachés de redes, actualiza el nombre versionado del PNG en el script, los metadatos y `vercel.json`.
