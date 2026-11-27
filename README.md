@@ -1,24 +1,7 @@
-# Curso DeepSeek Harness
+# Curso DeepSeek Harness v2.0
 
-Curso práctico independiente, basado en dos transcripciones de vídeos públicos, con **8 módulos y 24 lecciones**, microprácticas, biblioteca de prompts, recursos, glosario, checklist de seguridad y proyecto final de una agencia digital ficticia.
+Web: https://curso-deepseek-harness.vercel.app/
 
-## Web
-https://curso-deepseek-harness.vercel.app
+8 módulos, 24 lecciones, tres niveles, 8 microprácticas, 8 prompts, glosario y recursos. Interfaz adaptada de curso-pm-ia v5.8.2. Progreso, notas, destacados y comentarios en localStorage; migración desde v1; exportación/importación JSON, Markdown y PDF de curso. Diseño responsive y metadatos sociales. Los tutoriales son los indicados en las fuentes; Martín Toledo está identificado en la transcripción, el segundo autor queda pendiente de verificación. Solo español en esta edición. La imagen social SVG puede no renderizar en todos los clientes; se debe sustituir por PNG para máxima compatibilidad.
 
-## Funcionalidades
-- Diseño responsive, navegación plegable, búsqueda y filtros.
-- Progreso de 24 lecciones, checklist, notas y destacados mediante localStorage.
-- Respaldo y restauración JSON; exportación de notas Markdown e impresión/PDF.
-- Enlaces directos a minutos de los dos vídeos.
-- Sin backend, registros ni credenciales.
-
-## Fuentes
-- Vídeo 1: https://www.youtube.com/watch?v=WFlTNBh1PFk
-- Vídeo 2: https://www.youtube.com/watch?v=ZBSHJ7GtiPo
-
-Los precios, modelos, licencias, instrucciones de instalación y permisos descritos en los vídeos pueden haber cambiado. Verificar siempre fuentes oficiales antes de operar. Interfaz en español con selección parcial de términos en inglés y catalán; contenido formativo redactado en español.
-
-## Desarrollo
-Una aplicación HTML, CSS y JavaScript sin dependencias ni proceso de compilación. Abrir `index.html` directamente o servirlo desde un servidor estático. Despliegue continuo desde `main` mediante Vercel.
-
-La marca DeepSeek pertenece a sus titulares; este es un recurso educativo independiente, sin afiliación.
+Cambios publicados desde main mediante integración GitHub–Vercel. No se requieren dependencias ni build para el HTML estático.
